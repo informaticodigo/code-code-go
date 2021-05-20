@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Una web para el aprendizaje y publicacion">
+    <title>Título</title>
+    <!-- BOOTSTRAP 4 CDN -->
+    <link rel="stylesheet" href="bootstrap.css">
+    <!-- CUSTOM CSS -->
+    <!--<link rel="stylesheet" href="style.css">-->
+  </head>
+  <body style="background-color: #343A40;">
+    <div style="background-color: #ffffff;">
+
+    <nav style="position: fixed;" class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Nombre del nav</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Un enlace</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">otro enlace</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">otro enlace</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">otro enlace</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">otro enlace</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">otro enlace</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">otro enlace</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">otro enlace</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" target="blanck">otro enlace</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">otro enlace</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">otro enlace</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> </a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> </a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <div class="container p-4">
+      {% block content %}
+      {% endblock%}
+    </div>
+    
+    <div>
+      <style>
+        #imagen{
+          position: relative;
+          bottom: -16.2em;
+          left: 40%;
+        }
+        #link-canal{
+          position: relative;
+          bottom: -15.8em;
+          left: 43%;
+        }
+        footer{
+          height: 20px; 
+        }
+      </style>
+    </div>
+    <a href="#" target="blanck"><img src='img_footer2.png' width="22%" height="22%" id="imagen" alt="Código"></a>
+    <a href="#" target="blanck"><img id="link-canal" width="32%" height="32%" src="img_footer.jpg" alt=""></a>
+  </div>
+       
+    <footer style="color: #ffffff;">
+      <a style="text-decoration: none; color: #ffffff;" href="https://www.ed.team"><p>Muchas gracias a los maestros de EDteam, que me enseñaron a programar y gracias a los que puedo hacer esta página </p></a>
+      <p>Espero que os fuera muy útil el contenido de esta página</p>
+      <a href="{{ url_for('python') }}"><button style="background-color: aqua; color: rgb(0, 0, 0);">Como hice esta página?</button></a><br>
+      <a href="{{ url_for('attr') }}"><button style="background-color: chartreuse; color: rgb(0, 0, 0);">Librerías Python</button></a><br>
+      <a href="{{ url_for('javascript') }}"><button style="background-color: aqua; color: rgb(0, 0, 0);">Librerías JavaScript</button></a>
+      <p id="botonfooter">:)</p>
+    </footer>
+    <script>
+      document.getElementById("botonfooter").addEventListener("click", ()=>{
+        document.writeln("Diseño de InformatiCódigo <br>")
+        document.writeln("App hecha por InformatiCódigo <br>")
+        document.writeln("Scrits de InformatiCódigo")
+      })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Una web para el aprendizaje y publicacion">
+    <title>Título</title>
+    <!-- BOOTSTRAP 4 CDN -->
+    <link rel="stylesheet" href="bootstrap.css">
+    <!-- CUSTOM CSS -->
+    <!--<link rel="stylesheet" href="style.css">-->
+  </head>
+  <body style="background-color: #343A40;">
+    <div style="background-color: #ffffff;">
+
+    <div class="container p-4">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="navbar-brand text-white">
+            <img src="img_footer2.png" height="40px" alt="">
+          </div>
+          <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a href="#" class="nav-link">Una opcion</a></li>
+                <li class="nav-item active"><a href="#" class="nav-link">Otra</a></li>
+                <li class="nav-item active"><a href="#" class="nav-link">otra</a></li>
+                <li class="nav-item active"><a href="#" class="nav-link">otra</a></li>
+                <li class="nav-item active"><a href="#" class="nav-link">otra</a></li>
+                <li class="nav-item active"><a href="#" class="nav-link">otra</a></li>
+                <li class="nav-item active"><a href="#" class="nav-link">otra</a></li>
+                <li class="nav-item active"><a href="#" class="nav-link">otra</a></li>
+                <li class="nav-item active"><a href="#" class="nav-link">otra</a></li>
+                <li class="nav-item active"><a href="#" class="nav-link">otra</a></li>
+            </ul>
+            <span class="navbar-text"><p>Texto plano</p></span>
+          </div>
+        </nav>
+<!--
+        {% block content %}
+
+        {% endblock %}
+-->
+<div class="jumbotron">
+  <h1 class="display-4">Atribuciones</h1>
+  <ul>
+      <li>Aplicación de ...</li>
+      <li>Diseño de ...</li>
+      <li>Scripts de ...</li>
+  </ul>
+  <a class="btn btn-primary btn-lg" style="background-color: red;" href="#" target="blanck" role="button">Ver canal oficial</a><br>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Ir a página principal</a>
+  
+</div>
+
+    </div>
+    
+    <div>
+      <style>
+        #imagen{
+          position: relative;
+          bottom: -16.2em;
+          left: 40%;
+        }
+        #link-canal{
+          position: relative;
+          bottom: -15.8em;
+          left: 43%;
+        }
+        footer{
+          height: 20px; 
+        }
+      </style>
+    </div>
+    <a href="#" target="blanck"><img src='img_footer2.png' width="22%" height="22%" id="imagen" alt="Código"></a>
+    <a href="#" target="blanck"><img id="link-canal" width="32%" height="32%" src="img_footer.jpg" alt=""></a>
+  </div>
+       
+    <footer style="color: #ffffff;">
+      <a style="text-decoration: none; color: #ffffff;" href="https://www.ed.team"><p>Muchas gracias a los maestros de EDteam, que me enseñaron a programar y gracias a los que puedo hacer esta página </p></a>
+      <p>Espero que os fuera muy útil el contenido de esta página</p>
+      <a href="{{ url_for('python') }}"><button style="background-color: aqua; color: rgb(0, 0, 0);">Como hice esta página?</button></a><br>
+      <a href="{{ url_for('attr') }}"><button style="background-color: chartreuse; color: rgb(0, 0, 0);">Librerías Python</button></a><br>
+      <a href="{{ url_for('javascript') }}"><button style="background-color: aqua; color: rgb(0, 0, 0);">Librerías JavaScript</button></a>
+      <p id="botonfooter">:)</p>
+    </footer>
+    <script>
+      document.getElementById("botonfooter").addEventListener("click", ()=>{
+        document.writeln("Diseño de InformatiCódigo <br>")
+        document.writeln("App hecha por InformatiCódigo <br>")
+        document.writeln("Scrits de InformatiCódigo")
+      })
+    </script>
+  </body>
+</html>
