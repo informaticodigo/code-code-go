@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://informaticodigo.github.io/code-code-go/</loc>
+  <lastmod>2021-06-17T16:51:49+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://informaticodigo.github.io/code-code-go/index.html</loc>
+  <lastmod>2021-06-17T16:51:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://informaticodigo.github.io/code-code-go/python.html</loc>
+  <lastmod>2021-06-17T16:51:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://informaticodigo.github.io/code-code-go/cpp.html</loc>
+  <lastmod>2021-06-17T16:51:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://informaticodigo.github.io/code-code-go/java.html</loc>
+  <lastmod>2021-06-17T16:51:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://informaticodigo.github.io/code-code-go/javascript.html</loc>
+  <lastmod>2021-06-17T16:51:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://informaticodigo.github.io/code-code-go/css.html</loc>
+  <lastmod>2021-06-17T16:51:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://informaticodigo.github.io/code-code-go/plantillas_html.html</loc>
+  <lastmod>2021-06-17T16:51:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://informaticodigo.github.io/code-code-go/mis_notas.html</loc>
+  <lastmod>2021-06-17T16:51:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://informaticodigo.github.io/code-code-go/search.html</loc>
+  <lastmod>2021-06-17T16:51:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://informaticodigo.github.io/code-code-go/atributtions.html</loc>
+  <lastmod>2021-06-17T16:51:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://informaticodigo.github.io/code-code-go/como_hice_esta_pagina.html</loc>
+  <lastmod>2021-06-17T16:51:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://informaticodigo.github.io/code-code-go/static/plantillas_html/paquete1/plantilla1.html</loc>
+  <lastmod>2021-06-17T16:51:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://informaticodigo.github.io/code-code-go/static/plantillas_html/paquete2/plantilla2.html</loc>
+  <lastmod>2021-06-17T16:51:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
